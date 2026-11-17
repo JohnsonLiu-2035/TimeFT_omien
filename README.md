@@ -59,10 +59,30 @@ Tokenization that partitions time series into subsequences has become a foundati
 
 ## 🛠️ Setup
 
-All experiments run in Python 3.9 environment. You can install the dependency libraries as follows:
+Use Python 3.11 for this reproduction. The pinned dependencies require Python
+3.11 or newer (for example, SciPy 1.16.3), so the original Python 3.9 setup
+instruction is incompatible with the current requirements. The author's exact
+runtime version is not established by this dependency file.
+
+Create a dedicated environment on the training server:
+
+```bash
+conda create -n timeft python=3.11 -y
+conda activate timeft
+```
+
+Install a PyTorch build appropriate for the server's NVIDIA driver using the
+[official PyTorch installation instructions](https://pytorch.org/get-started/locally/),
+then install the remaining dependencies below. Let the selected PyTorch build
+manage its CUDA runtime dependencies (`nvidia-*`). JAX has been removed from
+the requirements because the current source code does not import it.
+
+Python 3.11 is the reproduction target; full training compatibility will be
+verified on the GPU server. After a successful run, record the installed package
+versions with `python -m pip freeze > requirements-lock.txt`.
 
 ```
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ## 📊 Evaluation
