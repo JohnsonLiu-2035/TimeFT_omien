@@ -3,8 +3,8 @@ import torch
 import importlib
 import pkgutil  
 
-# Just put your model files under models/ folder
-# e.g., models/Transformer.py, models/LSTM.py, etc.
+# Just put your model files under Models/ folder
+# e.g., Models/Transformer.py, Models/LSTM.py, etc.
 # All models will be automatically detected and can be used by specifying their names.
 
 class Exp_Basic(object):
@@ -24,12 +24,12 @@ class Exp_Basic(object):
 
     def _scan_models_directory(self):
         """
-        Automatically scan all .py files in the models folder
+        Automatically scan all .py files in the Models folder
         """
         model_map = {}
-        models_dir = 'models'
+        models_dir = 'Models'
 
-        # Iterate through all files in 'models' directory
+        # Iterate through all files in 'Models' directory
         if os.path.exists(models_dir):
             for filename in os.listdir(models_dir):
                 # Ignore __init__.py and non-.py files
@@ -40,7 +40,7 @@ class Exp_Basic(object):
                     # Build full import path
                     full_path = f"{models_dir}.{module_name}"
                     
-                    # loading dict: {'Transformer': 'models.Transformer'}
+                    # loading dict: {'Transformer': 'Models.Transformer'}
                     model_map[module_name] = full_path
         
         return model_map
@@ -89,7 +89,7 @@ class LazyModelDict(dict):
             return super().__getitem__(key)
         
         if key not in self.model_map:
-            raise NotImplementedError(f"Model [{key}] not found in 'models' directory.")
+            raise NotImplementedError(f"Model [{key}] not found in 'Models' directory.")
             
         module_path = self.model_map[key]
         try:
