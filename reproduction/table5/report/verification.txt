@@ -1,0 +1,8 @@
+code.sha256: 3 matches
+ETTh1-artifacts.sha256: 31 matches
+ETTm1-artifacts.sha256: 15 matches
+Weather-artifacts.sha256: 15 matches
+ETTh1: 2,785 paired windows, 7 channels, source SHA, timestamps, 5 exact input/target checks per dataset
+ETTm1: 11,425 paired windows, 7 channels, source SHA, timestamps, 5 exact input/target checks per dataset
+Weather: 10,444 paired windows, 21 channels, source SHA, timestamps, 5 exact input/target checks per dataset
+All six formal runs and 64 recorded hashes verified.

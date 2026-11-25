@@ -1,0 +1,5 @@
+{
+  "public_head_gradient_l2": 6.8680033683776855,
+  "public_head_update_l2": 0.0,
+  "public_vs_paired_raw_token_max_abs_diff": 0.0
+}

@@ -20,6 +20,7 @@ Thumbs.db
 /datasets/
 /checkpoints/
 /results/
+/papers/
 /test_results/
 /m4_results/
 /logs/

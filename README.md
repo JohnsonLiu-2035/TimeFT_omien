@@ -87,6 +87,8 @@ python -m pip install -r requirements.txt
 
 ## 📊 Evaluation
 
+The [Table 5 reproduction report](reproduction/table5/report/REPORT.md) covers six paired PatchTST and TimeFT runs on ETTh1, ETTm1, and Weather. See the [experiment plan](reproduction/table5/PLAN.md) for configuration and procedure.
+
 Experiments can be run as follows:
 
 ```
