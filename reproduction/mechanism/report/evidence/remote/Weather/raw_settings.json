@@ -1,0 +1,18 @@
+{
+  "full": [
+    1e-05,
+    1e-05
+  ],
+  "edge_removed": [
+    1e-05,
+    0.01
+  ],
+  "lower_removed": [
+    1e-05,
+    0.01
+  ],
+  "upper_removed": [
+    1e-05,
+    1e-05
+  ]
+}

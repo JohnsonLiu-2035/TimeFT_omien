@@ -1,0 +1,42 @@
+{
+  "rows_with_sentinel": {
+    "train": 80,
+    "val": 0,
+    "test": 0
+  },
+  "test_windows_with_sentinel": 0,
+  "std_inflation": {
+    "wv (m/s)": {
+      "missing_train": 1,
+      "original_std": 52.09941335817868,
+      "clean_std": 1.667194699216364,
+      "original_to_clean": 31.249747484602192
+    },
+    "max. PAR (�mol/m�/s)": {
+      "missing_train": 30,
+      "original_std": 643.3526922078195,
+      "clean_std": 571.4118626840694,
+      "original_to_clean": 1.1259001330245846
+    },
+    "OT": {
+      "missing_train": 50,
+      "original_std": 383.95709796587886,
+      "clean_std": 18.182133878776796,
+      "original_to_clean": 21.117273721873485
+    }
+  },
+  "scores": {
+    "patch": {
+      "original_total_mse": 0.15134564433373007,
+      "original_mean_mse": 0.06452783535914029,
+      "clean_scale_total_mse": 0.19906772779215065,
+      "clean_scale_mean_mse": 0.08967068323458274
+    },
+    "timeft": {
+      "original_total_mse": 0.1587152750971177,
+      "original_mean_mse": 0.07173665700468855,
+      "clean_scale_total_mse": 0.20549514583383083,
+      "clean_scale_mean_mse": 0.09624430588195565
+    }
+  }
+}

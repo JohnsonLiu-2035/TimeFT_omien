@@ -1,0 +1,425 @@
+{
+  "2020": {
+    "original_gap": {
+      "estimate": 0.007316469308165873,
+      "low": 0.004138435792066199,
+      "high": 0.010721035930749155,
+      "blocks": 11,
+      "window_channels": 36561
+    },
+    "original_total_gap": {
+      "estimate": 0.007510999163077397,
+      "low": 0.004227742302182603,
+      "high": 0.010781178783576335,
+      "blocks": 11,
+      "window_channels": 36561
+    },
+    "high_shift_gap": {
+      "estimate": 0.028527802380971908,
+      "low": 0.012704180525222937,
+      "high": 0.03879722230309472,
+      "blocks": 11,
+      "window_channels": 4602
+    },
+    "other_gap": {
+      "estimate": 0.004262101061316679,
+      "low": 0.0026256858034089396,
+      "high": 0.0058704806821459786,
+      "blocks": 11,
+      "window_channels": 31959
+    },
+    "always_recent": {
+      "extra_gain_timeft": {
+        "estimate": 0.004856462281561252,
+        "low": 0.0018636743578163062,
+        "high": 0.00834999857176044,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "patch_gain": {
+        "estimate": -5.339214107310711e-05,
+        "low": -0.0006931238731523539,
+        "high": 0.0007036719408271738,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "timeft_gain": {
+        "estimate": 0.004803070140488144,
+        "low": 0.0016187266390101593,
+        "high": 0.008576947846017756,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "timeft_high_gain": {
+        "estimate": 0.008745437576195588,
+        "low": -0.009921152396790185,
+        "high": 0.02101950954459292,
+        "blocks": 11,
+        "window_channels": 4602
+      },
+      "timeft_other_gain": {
+        "estimate": 0.004235381072021496,
+        "low": 0.0015367461678943985,
+        "high": 0.007209323437002607,
+        "blocks": 11,
+        "window_channels": 31959
+      }
+    },
+    "high_shift_recent": {
+      "extra_gain_timeft": {
+        "estimate": 0.0015417638189794665,
+        "low": -0.0002713660271510114,
+        "high": 0.003706137376158154,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "patch_gain": {
+        "estimate": -0.00044095958152282847,
+        "low": -0.0012832411397109306,
+        "high": 0.0005415754123296245,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "timeft_gain": {
+        "estimate": 0.0011008042374566368,
+        "low": -0.0009233605244405864,
+        "high": 0.003487383740253903,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "timeft_high_gain": {
+        "estimate": 0.008745437576195588,
+        "low": -0.009921152396790185,
+        "high": 0.02101950954459292,
+        "blocks": 11,
+        "window_channels": 4602
+      },
+      "timeft_other_gain": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "blocks": 11,
+        "window_channels": 31959
+      }
+    },
+    "high_shift_early": {
+      "extra_gain_timeft": {
+        "estimate": 0.000934608649225083,
+        "low": 0.00019069200402125223,
+        "high": 0.0018606662929233208,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "patch_gain": {
+        "estimate": -0.0007364484829855197,
+        "low": -0.0014664863548973447,
+        "high": -0.0001851711039311011,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "timeft_gain": {
+        "estimate": 0.00019816016623956342,
+        "low": -2.0193581251576992e-05,
+        "high": 0.0005127778145247434,
+        "blocks": 11,
+        "window_channels": 36561
+      },
+      "timeft_high_gain": {
+        "estimate": 0.0015743011381757232,
+        "low": -0.00021583448118658923,
+        "high": 0.0033939321949724983,
+        "blocks": 11,
+        "window_channels": 4602
+      },
+      "timeft_other_gain": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "blocks": 11,
+        "window_channels": 31959
+      }
+    }
+  },
+  "2021": {
+    "original_gap": {
+      "estimate": 0.008519721253044106,
+      "low": 0.0058195592703730835,
+      "high": 0.011385684222895523,
+      "blocks": 52,
+      "window_channels": 174636
+    },
+    "original_total_gap": {
+      "estimate": 0.009868256547259785,
+      "low": 0.006757318643032766,
+      "high": 0.013182146262914203,
+      "blocks": 52,
+      "window_channels": 174636
+    },
+    "high_shift_gap": {
+      "estimate": 0.021674976957896462,
+      "low": 0.009802007199163638,
+      "high": 0.033838911829704804,
+      "blocks": 52,
+      "window_channels": 34784
+    },
+    "other_gap": {
+      "estimate": 0.005247745060800991,
+      "low": 0.004230913067473592,
+      "high": 0.006259367361223704,
+      "blocks": 52,
+      "window_channels": 139852
+    },
+    "always_recent": {
+      "extra_gain_timeft": {
+        "estimate": 0.0031408473021143192,
+        "low": 0.0011919984600982105,
+        "high": 0.00535468255497275,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "patch_gain": {
+        "estimate": 0.0005613060265255845,
+        "low": -0.0006663534146512495,
+        "high": 0.0018394585602810342,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "timeft_gain": {
+        "estimate": 0.003702153328639904,
+        "low": 0.001225361722077068,
+        "high": 0.0061852124336426945,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "timeft_high_gain": {
+        "estimate": -0.000223936309727481,
+        "low": -0.012001301784611626,
+        "high": 0.010836678184393189,
+        "blocks": 52,
+        "window_channels": 34784
+      },
+      "timeft_other_gain": {
+        "estimate": 0.004678650639947367,
+        "low": 0.0036342233631462928,
+        "high": 0.005702508844735156,
+        "blocks": 52,
+        "window_channels": 139852
+      }
+    },
+    "high_shift_recent": {
+      "extra_gain_timeft": {
+        "estimate": 0.00012300605359250754,
+        "low": -0.0016146257650561506,
+        "high": 0.002195012483965516,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "patch_gain": {
+        "estimate": -0.00016760968971312804,
+        "low": -0.001322671405507875,
+        "high": 0.0010232724601544369,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "timeft_gain": {
+        "estimate": -4.46036361206206e-05,
+        "low": -0.0023499256818429147,
+        "high": 0.0022193360597334752,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "timeft_high_gain": {
+        "estimate": -0.000223936309727481,
+        "low": -0.012001301784611626,
+        "high": 0.010836678184393189,
+        "blocks": 52,
+        "window_channels": 34784
+      },
+      "timeft_other_gain": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "blocks": 52,
+        "window_channels": 139852
+      }
+    },
+    "high_shift_early": {
+      "extra_gain_timeft": {
+        "estimate": 0.00015168615187466567,
+        "low": -0.0003002776313779866,
+        "high": 0.0006637829029233552,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "patch_gain": {
+        "estimate": -5.89116952619724e-05,
+        "low": -0.0005323818601345807,
+        "high": 0.000349886764711009,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "timeft_gain": {
+        "estimate": 9.27744566126934e-05,
+        "low": -4.693853841341466e-05,
+        "high": 0.00024050377796082874,
+        "blocks": 52,
+        "window_channels": 174636
+      },
+      "timeft_high_gain": {
+        "estimate": 0.00046578196886540725,
+        "low": -0.00024773651114313837,
+        "high": 0.0011762336363202635,
+        "blocks": 52,
+        "window_channels": 34784
+      },
+      "timeft_other_gain": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "blocks": 52,
+        "window_channels": 139852
+      }
+    }
+  },
+  "2022": {
+    "original_gap": {
+      "estimate": 0.008366218624862266,
+      "low": 0.005887351223516455,
+      "high": 0.010777114195880858,
+      "blocks": 51,
+      "window_channels": 158403
+    },
+    "original_total_gap": {
+      "estimate": 0.009676416449861398,
+      "low": 0.006953572605646164,
+      "high": 0.01239083077513987,
+      "blocks": 51,
+      "window_channels": 158403
+    },
+    "high_shift_gap": {
+      "estimate": 0.016176777502608344,
+      "low": 0.007070650698983415,
+      "high": 0.025152689736336838,
+      "blocks": 51,
+      "window_channels": 33852
+    },
+    "other_gap": {
+      "estimate": 0.006243369036103763,
+      "low": 0.004883137271080138,
+      "high": 0.00769459847040345,
+      "blocks": 51,
+      "window_channels": 124551
+    },
+    "always_recent": {
+      "extra_gain_timeft": {
+        "estimate": 0.002598026864450828,
+        "low": 0.0004774711196707059,
+        "high": 0.004662474390903565,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "patch_gain": {
+        "estimate": 0.00026885212127152595,
+        "low": -0.0007666015767196945,
+        "high": 0.001402521760951145,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "timeft_gain": {
+        "estimate": 0.0028668789857223542,
+        "low": 0.00050574590163337,
+        "high": 0.005178526887660831,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "timeft_high_gain": {
+        "estimate": -0.0012831272433713435,
+        "low": -0.009314852662814536,
+        "high": 0.006670499191276871,
+        "blocks": 51,
+        "window_channels": 33852
+      },
+      "timeft_other_gain": {
+        "estimate": 0.003994818631869553,
+        "low": 0.0025679850565135365,
+        "high": 0.005313732382353221,
+        "blocks": 51,
+        "window_channels": 124551
+      }
+    },
+    "high_shift_recent": {
+      "extra_gain_timeft": {
+        "estimate": -0.0001399121542586501,
+        "low": -0.0017065082799997426,
+        "high": 0.001369792218907556,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "patch_gain": {
+        "estimate": -0.000134302497247992,
+        "low": -0.0011850656656310088,
+        "high": 0.0010512332581040203,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "timeft_gain": {
+        "estimate": -0.00027421465150664264,
+        "low": -0.0019570526310709246,
+        "high": 0.0014449947179220753,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "timeft_high_gain": {
+        "estimate": -0.0012831272433713435,
+        "low": -0.009314852662814536,
+        "high": 0.006670499191276871,
+        "blocks": 51,
+        "window_channels": 33852
+      },
+      "timeft_other_gain": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "blocks": 51,
+        "window_channels": 124551
+      }
+    },
+    "high_shift_early": {
+      "extra_gain_timeft": {
+        "estimate": 0.0003396823981014713,
+        "low": -0.00012077464439848686,
+        "high": 0.0007976674553568034,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "patch_gain": {
+        "estimate": -0.00022443464102777267,
+        "low": -0.0006297005395345662,
+        "high": 0.00016330419247021055,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "timeft_gain": {
+        "estimate": 0.0001152477570736986,
+        "low": -4.6763403030185586e-05,
+        "high": 0.00026742234569383935,
+        "blocks": 51,
+        "window_channels": 158403
+      },
+      "timeft_high_gain": {
+        "estimate": 0.0005392765704757497,
+        "low": -0.00022327867553708337,
+        "high": 0.0012692459470415927,
+        "blocks": 51,
+        "window_channels": 33852
+      },
+      "timeft_other_gain": {
+        "estimate": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "blocks": 51,
+        "window_channels": 124551
+      }
+    }
+  }
+}

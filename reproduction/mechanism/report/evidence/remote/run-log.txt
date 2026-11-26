@@ -1,0 +1,65 @@
+START Weather
+Weather raw readout full [1e-05, 1e-05]
+Weather raw readout edge_removed [1e-05, 0.01]
+Weather raw readout lower_removed [1e-05, 0.01]
+Weather raw readout upper_removed [1e-05, 1e-05]
+Weather patch train 5941
+Weather patch val 863
+Weather patch test 1741
+Weather patch external 8316
+Weather patch frozen readout embedding [1e-05, 1e-05]
+Weather patch frozen readout encoder [0.0001, 0.0001]
+Weather patch frozen readout encoder_recent [0.0001, 1e-05]
+Weather patch frozen readout encoder_early [0.0001, 0.0001]
+FINISHED Weather patch
+Weather timeft train 5941
+Weather timeft val 863
+Weather timeft test 1741
+Weather timeft external 8316
+Weather timeft frozen readout embedding [1e-05, 1e-05]
+Weather timeft frozen readout encoder [0.0001, 1e-05]
+Weather timeft frozen readout encoder_recent [1e-05, 1e-05]
+Weather timeft frozen readout encoder_early [0.0001, 1e-05]
+FINISHED Weather timeft
+START ETTh1
+ETTh1 raw readout full [0.1, 1e-05]
+ETTh1 raw readout edge_removed [0.1, 0.1]
+ETTh1 raw readout lower_removed [0.1, 0.1]
+ETTh1 raw readout upper_removed [0.1, 0.01]
+ETTh1 patch train 2057
+ETTh1 patch val 697
+ETTh1 patch test 697
+ETTh1 patch frozen readout embedding [0.1, 1e-05]
+ETTh1 patch frozen readout encoder [0.1, 0.001]
+ETTh1 patch frozen readout encoder_recent [0.1, 1e-05]
+ETTh1 patch frozen readout encoder_early [0.1, 0.001]
+FINISHED ETTh1 patch
+ETTh1 timeft train 2057
+ETTh1 timeft val 697
+ETTh1 timeft test 697
+ETTh1 timeft frozen readout embedding [1e-05, 1e-05]
+ETTh1 timeft frozen readout encoder [0.0001, 1e-05]
+ETTh1 timeft frozen readout encoder_recent [0.0001, 1e-05]
+ETTh1 timeft frozen readout encoder_early [0.0001, 1e-05]
+FINISHED ETTh1 timeft
+START ETTm1
+ETTm1 raw readout full [0.1, 1e-05]
+ETTm1 raw readout edge_removed [0.1, 0.01]
+ETTm1 raw readout lower_removed [0.1, 0.1]
+ETTm1 raw readout upper_removed [0.1, 0.01]
+ETTm1 patch train 5691
+ETTm1 patch val 1905
+ETTm1 patch test 1905
+ETTm1 patch frozen readout embedding [0.01, 0.001]
+ETTm1 patch frozen readout encoder [0.0001, 1e-05]
+ETTm1 patch frozen readout encoder_recent [0.001, 1e-05]
+ETTm1 patch frozen readout encoder_early [0.0001, 0.0001]
+FINISHED ETTm1 patch
+ETTm1 timeft train 5691
+ETTm1 timeft val 1905
+ETTm1 timeft test 1905
+ETTm1 timeft frozen readout embedding [1e-05, 1e-05]
+ETTm1 timeft frozen readout encoder [0.001, 1e-05]
+ETTm1 timeft frozen readout encoder_recent [0.001, 1e-05]
+ETTm1 timeft frozen readout encoder_early [0.001, 1e-05]
+FINISHED ETTm1 timeft

@@ -1,0 +1,39 @@
+{
+  "unpooled_alpha": [
+    0.001,
+    1e-05
+  ],
+  "calibration": {
+    "linear": {
+      "alpha": 10.0,
+      "fit_windows": 517,
+      "selection_windows": 277
+    },
+    "early": {
+      "alpha": 10.0,
+      "fit_windows": 517,
+      "selection_windows": 277
+    },
+    "recent": {
+      "alpha": 0.0001,
+      "fit_windows": 517,
+      "selection_windows": 277
+    },
+    "history_stats": {
+      "alpha": 1.0,
+      "fit_windows": 517,
+      "selection_windows": 277
+    },
+    "edge_mean": {
+      "alpha": 10.0,
+      "fit_windows": 517,
+      "selection_windows": 277
+    },
+    "inside_mean": {
+      "alpha": 10.0,
+      "fit_windows": 517,
+      "selection_windows": 277
+    }
+  },
+  "weather_2020_parity_rms": 3.9554324990016134e-08
+}

@@ -1,0 +1,95 @@
+{
+  "benchmark": {
+    "Weather": {
+      "path": "weather/weather.csv",
+      "dataset_sha256": "34ee981d07313e51da2a50bb600072c8ae4a69cb4b0651f4cb93a069d7a2ba63",
+      "model_artifacts": {
+        "patch": {
+          "checkpoint.pth": "116a95f62d2d6da131e7ab318f83e1cdccda0ec8649228ed58834a51a108c179",
+          "config.json": "c8f5a107bf514279389fda276fb85297afe96ce46d3489c595facb6c4b0c9356"
+        },
+        "timeft": {
+          "checkpoint.pth": "368f8d42eff63e6d2f7108bf7db9a9057b307b4a197b433f5d7e205d79c76fb8",
+          "config.json": "f722246aab0a0ae0b57a6951c03f5e7dea67652b5f35247fc943123349d417bc"
+        }
+      },
+      "step": 6,
+      "windows": {
+        "train": 5941,
+        "val": 863,
+        "test": 1741
+      }
+    },
+    "ETTh1": {
+      "path": "ETT-small/ETTh1.csv",
+      "dataset_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066",
+      "model_artifacts": {
+        "patch": {
+          "checkpoint.pth": "e057c8038fc2113577b7a1f387cdeff5b99555b3374fabbfacac9b1f7423ada9",
+          "config.json": "047c020f7f3e92b6b48dc3441f5e9e1dfd65eda8948e39fef5d05b704322f969"
+        },
+        "timeft": {
+          "checkpoint.pth": "2f6157a69d536619f471a871b729cc9f39800532c52ff63af85054ebd98fda53",
+          "config.json": "37c406395312e4f1d4468a9a06a4ac5d930de8a5b3c9928c17f8cde653682d2b"
+        }
+      },
+      "step": 4,
+      "windows": {
+        "train": 2057,
+        "val": 697,
+        "test": 697
+      }
+    },
+    "ETTm1": {
+      "path": "ETT-small/ETTm1.csv",
+      "dataset_sha256": "6ce1759b1a18e3328421d5d75fadcb316c449fcd7cec32820c8dafda71986c9e",
+      "model_artifacts": {
+        "patch": {
+          "checkpoint.pth": "22a3db69b1389fb7e3b4cb70dda2138a158c366128e8d0a3b697738c3c6d84e2",
+          "config.json": "da8f5d0f06681c10f8f3080f78f7a7af32069aea7092dbbcc3d0e8b42f59d870"
+        },
+        "timeft": {
+          "checkpoint.pth": "ef8a370ba8521158569af0eda8ae0092f7881f13beb158d492e7cc3d1bc6aa81",
+          "config.json": "3116b6842f5582a8201f24f726e547b5906ba5a7c991baa8cd3590f1c4d70e0d"
+        }
+      },
+      "step": 6,
+      "windows": {
+        "train": 5691,
+        "val": 1905,
+        "test": 1905
+      }
+    }
+  },
+  "weather_archives": [
+    {
+      "url": "https://www.bgc-jena.mpg.de/wetter/data/mpi_roof_2020a.zip",
+      "sha256": "6a0be0552a2a26a04c3b41a5281d4a55ae251d4c65ce630971a8662f43b31f9f",
+      "license": "CC BY 4.0"
+    },
+    {
+      "url": "https://www.bgc-jena.mpg.de/wetter/data/mpi_roof_2021a.zip",
+      "sha256": "3785931544fef3e66166e0b3cb1ec4496ee5e92042e7de0d1a094fac64311668",
+      "license": "CC BY 4.0"
+    },
+    {
+      "url": "https://www.bgc-jena.mpg.de/wetter/data/mpi_roof_2021b.zip",
+      "sha256": "772869a7204f2bdf95154334f6314c3cd8a32c3c4df44d95ffa4ab904a5b058c",
+      "license": "CC BY 4.0"
+    }
+  ],
+  "external": {
+    "matched_benchmark_rows": 26198,
+    "minimum_channel_match": 1.0,
+    "OT_alias": "CO2 (ppm)",
+    "scale": "Table 5 Weather 2020 training scaler",
+    "first": "2021-01-01 00:10:00",
+    "last": "2022-01-01 00:00:00",
+    "rows": 52560,
+    "bad_rows": 12,
+    "examined": 8691,
+    "windows": {
+      "test": 8316
+    }
+  }
+}

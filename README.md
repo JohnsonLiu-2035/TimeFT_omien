@@ -89,6 +89,8 @@ python -m pip install -r requirements.txt
 
 The [Table 5 reproduction report](reproduction/table5/report/REPORT.md) covers six paired PatchTST and TimeFT runs on ETTh1, ETTm1, and Weather. See the [experiment plan](reproduction/table5/PLAN.md) for configuration and procedure.
 
+The [follow-up mechanism study](reproduction/mechanism/report/REPORT.md) tests how TimeFT's frequency-band boundary affects forecast means and evaluates the hypotheses on two held-out Weather years.
+
 Experiments can be run as follows:
 
 ```

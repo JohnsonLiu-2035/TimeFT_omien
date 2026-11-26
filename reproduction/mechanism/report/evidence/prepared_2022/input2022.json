@@ -1,0 +1,23 @@
+{
+  "first": "2022-01-01 00:10:00",
+  "last": "2023-01-01 00:00:00",
+  "rows": 52478,
+  "bad_rows": 512,
+  "exact_duplicates_removed": 7,
+  "missing_10min_rows": 82,
+  "windows": {
+    "test": 7543
+  },
+  "sources": [
+    {
+      "url": "https://www.bgc-jena.mpg.de/wetter/data/mpi_roof_2022a.zip",
+      "sha256": "bc329f337ff696ababae0c5ebc279039b2b5f9cea07f5b60e96659ff7dd81656",
+      "license": "CC BY 4.0"
+    },
+    {
+      "url": "https://www.bgc-jena.mpg.de/wetter/data/mpi_roof_2022b.zip",
+      "sha256": "980c6ef21c7b4bb8c9d49d50c8dc81a7c4c6b86036bab169b392791a1870fd1a",
+      "license": "CC BY 4.0"
+    }
+  ]
+}

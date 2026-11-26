@@ -1,0 +1,5 @@
+*.py text eol=lf
+FOLLOWUP.md text eol=lf
+# Preserve the byte hashes of the Windows-generated input manifests.
+report/evidence/prepared/inputs.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+report/evidence/prepared_2022/input2022.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
