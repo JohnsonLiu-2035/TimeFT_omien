@@ -1,0 +1,169 @@
+training,units,metric,channel,delta
+original,original,total,p (mbar),0.04749411371634249
+original,original,total,T (degC),0.00996364310826013
+original,original,total,Tpot (K),0.012258314587068374
+original,original,total,Tdew (degC),0.009991957592966274
+original,original,total,rh (%),0.005697386736011971
+original,original,total,VPmax (mbar),0.004937728686992126
+original,original,total,VPact (mbar),0.00848760697480192
+original,original,total,VPdef (mbar),-0.00021989312519624845
+original,original,total,sh (g/kg),0.008423018214315988
+original,original,total,H2OC (mmol/mol),0.008446713184756845
+original,original,total,rho (g/m**3),0.017194890338520927
+original,original,total,wv (m/s),-1.5564533851143873e-05
+original,original,total,max. wv (m/s),-0.004617920907805924
+original,original,total,wd (deg),-0.009380282846045088
+original,original,total,rain (mm),0.0008573185457624614
+original,original,total,raining (s),0.024843746109609943
+original,original,total,SWDR (W/m�),0.0014370242450690632
+original,original,total,PAR (�mol/m�/s),0.001539160561393001
+original,original,total,max. PAR (�mol/m�/s),0.0013471566036388407
+original,original,total,Tlog (degC),0.006087282807552792
+original,original,total,OT,-1.115456819859932e-05
+original,original,dc,p (mbar),0.047945658676088444
+original,original,dc,T (degC),0.009888015341411462
+original,original,dc,Tpot (K),0.011863371592099374
+original,original,dc,Tdew (degC),0.010802167834855238
+original,original,dc,rh (%),0.00608725849204094
+original,original,dc,VPmax (mbar),0.005052396153816931
+original,original,dc,VPact (mbar),0.009052263622807085
+original,original,dc,VPdef (mbar),0.00013397812160090657
+original,original,dc,sh (g/kg),0.008970000967861297
+original,original,dc,H2OC (mmol/mol),0.008995385180201728
+original,original,dc,rho (g/m**3),0.01475922834811188
+original,original,dc,wv (m/s),-1.1417065964774617e-05
+original,original,dc,max. wv (m/s),-0.002261500086968011
+original,original,dc,wd (deg),-0.0065079612265866735
+original,original,dc,rain (mm),0.0008378715640908549
+original,original,dc,raining (s),0.020780934311271253
+original,original,dc,SWDR (W/m�),-0.0008888652437554215
+original,original,dc,PAR (�mol/m�/s),-0.0008363696413093844
+original,original,dc,max. PAR (�mol/m�/s),-0.00033900068531602257
+original,original,dc,Tlog (degC),0.007066581787790802
+original,original,dc,OT,-4.743487622923553e-06
+original,cleaned,total,p (mbar),0.04749411371634249
+original,cleaned,total,T (degC),0.00996364310826013
+original,cleaned,total,Tpot (K),0.012258314587068374
+original,cleaned,total,Tdew (degC),0.009991957592966274
+original,cleaned,total,rh (%),0.005697386736011971
+original,cleaned,total,VPmax (mbar),0.004937728686992126
+original,cleaned,total,VPact (mbar),0.00848760697480192
+original,cleaned,total,VPdef (mbar),-0.00021989312519624845
+original,cleaned,total,sh (g/kg),0.008423018214315988
+original,cleaned,total,H2OC (mmol/mol),0.008446713184756845
+original,cleaned,total,rho (g/m**3),0.017194890338520927
+original,cleaned,total,wv (m/s),-0.015199895590022832
+original,cleaned,total,max. wv (m/s),-0.004617920907805924
+original,cleaned,total,wd (deg),-0.009380282846045088
+original,cleaned,total,rain (mm),0.0008573185457624614
+original,cleaned,total,raining (s),0.024843746109609943
+original,cleaned,total,SWDR (W/m�),0.0014370242450690632
+original,cleaned,total,PAR (�mol/m�/s),0.001539160561393001
+original,cleaned,total,max. PAR (�mol/m�/s),0.0016964721103605886
+original,cleaned,total,Tlog (degC),0.006087282807552792
+original,cleaned,total,OT,-0.004934378842759379
+original,cleaned,dc,p (mbar),0.047945658676088444
+original,cleaned,dc,T (degC),0.009888015341411462
+original,cleaned,dc,Tpot (K),0.011863371592099374
+original,cleaned,dc,Tdew (degC),0.010802167834855238
+original,cleaned,dc,rh (%),0.00608725849204094
+original,cleaned,dc,VPmax (mbar),0.005052396153816931
+original,cleaned,dc,VPact (mbar),0.009052263622807085
+original,cleaned,dc,VPdef (mbar),0.00013397812160090657
+original,cleaned,dc,sh (g/kg),0.008970000967861297
+original,cleaned,dc,H2OC (mmol/mol),0.008995385180201728
+original,cleaned,dc,rho (g/m**3),0.01475922834811188
+original,cleaned,dc,wv (m/s),-0.011149592546019169
+original,cleaned,dc,max. wv (m/s),-0.002261500086968011
+original,cleaned,dc,wd (deg),-0.0065079612265866735
+original,cleaned,dc,rain (mm),0.0008378715640908549
+original,cleaned,dc,raining (s),0.020780934311271253
+original,cleaned,dc,SWDR (W/m�),-0.0008888652437554215
+original,cleaned,dc,PAR (�mol/m�/s),-0.0008363696413093844
+original,cleaned,dc,max. PAR (�mol/m�/s),-0.0004269030092554386
+original,cleaned,dc,Tlog (degC),0.007066581787790802
+original,cleaned,dc,OT,-0.0020983479190511164
+cleaned,original,total,p (mbar),0.034326773641530375
+cleaned,original,total,T (degC),0.005930489198447618
+cleaned,original,total,Tpot (K),0.007971929817868236
+cleaned,original,total,Tdew (degC),0.007060037695771474
+cleaned,original,total,rh (%),0.009178427023039256
+cleaned,original,total,VPmax (mbar),0.004029025601126541
+cleaned,original,total,VPact (mbar),0.005668766146776466
+cleaned,original,total,VPdef (mbar),-0.000811952155415055
+cleaned,original,total,sh (g/kg),0.005539768662740178
+cleaned,original,total,H2OC (mmol/mol),0.0055545700683879845
+cleaned,original,total,rho (g/m**3),0.01500898947398278
+cleaned,original,total,wv (m/s),-1.6954877323794017e-05
+cleaned,original,total,max. wv (m/s),-0.008747638350209736
+cleaned,original,total,wd (deg),-0.001293385612615803
+cleaned,original,total,rain (mm),0.0005795178201380256
+cleaned,original,total,raining (s),0.02580414472020403
+cleaned,original,total,SWDR (W/m�),-0.003272931488689365
+cleaned,original,total,PAR (�mol/m�/s),-0.0022494396767624293
+cleaned,original,total,max. PAR (�mol/m�/s),-0.0019143713522916579
+cleaned,original,total,Tlog (degC),0.002346462257380301
+cleaned,original,total,OT,-5.30578120975445e-06
+cleaned,original,dc,p (mbar),0.03668369131054825
+cleaned,original,dc,T (degC),0.007326257596024963
+cleaned,original,dc,Tpot (K),0.009178997997613006
+cleaned,original,dc,Tdew (degC),0.008433717490737992
+cleaned,original,dc,rh (%),0.006352803003343214
+cleaned,original,dc,VPmax (mbar),0.00451180675500253
+cleaned,original,dc,VPact (mbar),0.006687238419596481
+cleaned,original,dc,VPdef (mbar),-0.00011680614317003692
+cleaned,original,dc,sh (g/kg),0.006528633318090925
+cleaned,original,dc,H2OC (mmol/mol),0.006546111189517094
+cleaned,original,dc,rho (g/m**3),0.014024098699311182
+cleaned,original,dc,wv (m/s),-1.070129926985945e-05
+cleaned,original,dc,max. wv (m/s),-0.003600748530494529
+cleaned,original,dc,wd (deg),0.0016219540833605037
+cleaned,original,dc,rain (mm),0.00041170152625719656
+cleaned,original,dc,raining (s),0.016621544335759866
+cleaned,original,dc,SWDR (W/m�),-0.0016562683278294698
+cleaned,original,dc,PAR (�mol/m�/s),-0.0013149628470007434
+cleaned,original,dc,max. PAR (�mol/m�/s),-0.0008767861687311512
+cleaned,original,dc,Tlog (degC),0.003954666988906186
+cleaned,original,dc,OT,2.9179991330069656e-06
+cleaned,cleaned,total,p (mbar),0.034326773641530375
+cleaned,cleaned,total,T (degC),0.005930489198447618
+cleaned,cleaned,total,Tpot (K),0.007971929817868236
+cleaned,cleaned,total,Tdew (degC),0.007060037695771474
+cleaned,cleaned,total,rh (%),0.009178427023039256
+cleaned,cleaned,total,VPmax (mbar),0.004029025601126541
+cleaned,cleaned,total,VPact (mbar),0.005668766146776466
+cleaned,cleaned,total,VPdef (mbar),-0.000811952155415055
+cleaned,cleaned,total,sh (g/kg),0.005539768662740178
+cleaned,cleaned,total,H2OC (mmol/mol),0.0055545700683879845
+cleaned,cleaned,total,rho (g/m**3),0.01500898947398278
+cleaned,cleaned,total,wv (m/s),-0.016557666778075394
+cleaned,cleaned,total,max. wv (m/s),-0.008747638350209736
+cleaned,cleaned,total,wd (deg),-0.001293385612615803
+cleaned,cleaned,total,rain (mm),0.0005795178201380256
+cleaned,cleaned,total,raining (s),0.02580414472020403
+cleaned,cleaned,total,SWDR (W/m�),-0.003272931488689365
+cleaned,cleaned,total,PAR (�mol/m�/s),-0.0022494396767624293
+cleaned,cleaned,total,max. PAR (�mol/m�/s),-0.0024107647167847654
+cleaned,cleaned,total,Tlog (degC),0.002346462257380301
+cleaned,cleaned,total,OT,-0.0023470863308729436
+cleaned,cleaned,dc,p (mbar),0.03668369131054825
+cleaned,cleaned,dc,T (degC),0.007326257596024963
+cleaned,cleaned,dc,Tpot (K),0.009178997997613006
+cleaned,cleaned,dc,Tdew (degC),0.008433717490737992
+cleaned,cleaned,dc,rh (%),0.006352803003343214
+cleaned,cleaned,dc,VPmax (mbar),0.00451180675500253
+cleaned,cleaned,dc,VPact (mbar),0.006687238419596481
+cleaned,cleaned,dc,VPdef (mbar),-0.00011680614317003692
+cleaned,cleaned,dc,sh (g/kg),0.006528633318090925
+cleaned,cleaned,dc,H2OC (mmol/mol),0.006546111189517094
+cleaned,cleaned,dc,rho (g/m**3),0.014024098699311182
+cleaned,cleaned,dc,wv (m/s),-0.01045059448198619
+cleaned,cleaned,dc,max. wv (m/s),-0.003600748530494529
+cleaned,cleaned,dc,wd (deg),0.0016219540833605037
+cleaned,cleaned,dc,rain (mm),0.00041170152625719656
+cleaned,cleaned,dc,raining (s),0.016621544335759866
+cleaned,cleaned,dc,SWDR (W/m�),-0.0016562683278294698
+cleaned,cleaned,dc,PAR (�mol/m�/s),-0.0013149628470007434
+cleaned,cleaned,dc,max. PAR (�mol/m�/s),-0.0011041353900389439
+cleaned,cleaned,dc,Tlog (degC),0.003954666988906186
+cleaned,cleaned,dc,OT,0.001290817620973255

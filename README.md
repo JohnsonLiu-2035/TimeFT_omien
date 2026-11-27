@@ -91,6 +91,8 @@ The [Table 5 reproduction report](reproduction/table5/report/REPORT.md) covers s
 
 The [follow-up mechanism study](reproduction/mechanism/report/REPORT.md) tests how TimeFT's frequency-band boundary affects forecast means and evaluates the hypotheses on two held-out Weather years.
 
+Append one entry per experiment batch to the [experiment log](reproduction/EXPERIMENT_LOG.md) with its purpose, setup, outcome, and evidence.
+
 Experiments can be run as follows:
 
 ```
