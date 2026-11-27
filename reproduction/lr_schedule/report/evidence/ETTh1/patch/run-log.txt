@@ -1,0 +1,29 @@
+{"dataset": "ETTh1", "variant": "patch", "data_dir": "dataset", "output": "results/lr_schedule", "seed": 2021, "lradj": "cosine", "smoke": false, "root_path": "dataset/ETT-small", "data_path": "ETTh1.csv", "enc_in": 7, "freq": "h", "task_name": "long_term_forecast", "seq_len": 320, "label_len": 48, "pred_len": 96, "patch_len": 20, "stride": 20, "hidden_dim": 16, "d_model": 512, "d_ff": 2048, "e_layers": 2, "n_heads": 4, "factor": 3, "dropout": 0.1, "activation": "gelu", "augmentation_ratio": 0, "learning_rate": 5e-05, "patience": 5, "train_epochs": 70, "batch_size": 32, "input_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066", "windows": {"train": 8225, "val": 2785, "test": 2785}, "parameters": 7151712, "tokens": 17, "head_in_features": 8704, "encoder_initial_sha256": "2395423151f3cc82e8cce3912df89699c4d2bc86981c735b3a47e668380f680c", "python": "3.12.3", "torch": "2.8.0+cu128", "cuda": "12.8", "gpu": "NVIDIA GeForce RTX 3090", "matmul_precision": "high"}
+head check {'gradient_l2': 2.1485934257507324, 'first_update_l2': 0.045703258365392685}
+{"epoch": 1, "train_mse": 0.4152012765407562, "val_batch_mean_mse": 0.7370996472679756, "train_seconds": 5.960933908820152, "val_seconds": 0.6240014359354973, "lr": 5e-05, "steps": 258}
+Validation loss decreased (inf --> 0.737100).  Saving model ...
+Updating learning rate to 4.997482666353287e-05
+{"epoch": 2, "train_mse": 0.3765259087085724, "val_batch_mean_mse": 0.6965116538446058, "train_seconds": 5.73104614764452, "val_seconds": 0.6501515135169029, "lr": 4.997482666353287e-05, "steps": 258}
+Validation loss decreased (0.737100 --> 0.696512).  Saving model ...
+Updating learning rate to 4.989935734988098e-05
+{"epoch": 3, "train_mse": 0.3647317886352539, "val_batch_mean_mse": 0.7103239453651689, "train_seconds": 5.632504351437092, "val_seconds": 0.6537923216819763, "lr": 4.989935734988098e-05, "steps": 258}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.977374404419837e-05
+{"epoch": 4, "train_mse": 0.3551744818687439, "val_batch_mean_mse": 0.6916854620318521, "train_seconds": 5.60231227427721, "val_seconds": 0.6552751287817955, "lr": 4.977374404419837e-05, "steps": 258}
+Validation loss decreased (0.696512 --> 0.691685).  Saving model ...
+Updating learning rate to 4.959823971496574e-05
+{"epoch": 5, "train_mse": 0.34753647446632385, "val_batch_mean_mse": 0.7169036474078894, "train_seconds": 5.660433240234852, "val_seconds": 0.6521743312478065, "lr": 4.959823971496574e-05, "steps": 258}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.937319780454559e-05
+{"epoch": 6, "train_mse": 0.3410361111164093, "val_batch_mean_mse": 0.7043885610659014, "train_seconds": 5.6853586211800575, "val_seconds": 0.6553311944007874, "lr": 4.937319780454559e-05, "steps": 258}
+EarlyStopping counter: 2 out of 5
+Updating learning rate to 4.909907151739633e-05
+{"epoch": 7, "train_mse": 0.3390214145183563, "val_batch_mean_mse": 0.7102338979867372, "train_seconds": 5.647136136889458, "val_seconds": 0.6572268903255463, "lr": 4.909907151739633e-05, "steps": 258}
+EarlyStopping counter: 3 out of 5
+Updating learning rate to 4.877641290737884e-05
+{"epoch": 8, "train_mse": 0.3299251198768616, "val_batch_mean_mse": 0.7443161298605528, "train_seconds": 5.607152737677097, "val_seconds": 0.6559868082404137, "lr": 4.877641290737884e-05, "steps": 258}
+EarlyStopping counter: 4 out of 5
+Updating learning rate to 4.8405871765993433e-05
+{"epoch": 9, "train_mse": 0.32423868775367737, "val_batch_mean_mse": 0.7122759036719799, "train_seconds": 5.654690034687519, "val_seconds": 0.6625501662492752, "lr": 4.8405871765993433e-05, "steps": 258}
+EarlyStopping counter: 5 out of 5
+{"mse": 0.391707279133172, "mae": 0.4140495815779759, "best_epoch": 4, "best_validation_mse": 0.6916854620318521, "epochs": 9, "train_wall_seconds": 57.24007061868906, "test_wall_seconds": 0.720193013548851, "peak_training_allocated_mib": 491.99853515625, "shape": [2785, 96, 7], "head_check": {"gradient_l2": 2.1485934257507324, "first_update_l2": 0.045703258365392685}, "embedding_latency": {"batch_size": 32, "median_ms": 0.09814400225877762, "sample_ms": [0.09827200323343277, 0.09663999825716019, 0.09763199836015701, 0.09814400225877762, 0.09891200065612793]}}

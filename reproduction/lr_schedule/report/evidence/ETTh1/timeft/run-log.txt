@@ -1,0 +1,56 @@
+{"dataset": "ETTh1", "variant": "timeft", "data_dir": "dataset", "output": "results/lr_schedule", "seed": 2021, "lradj": "cosine", "smoke": false, "root_path": "dataset/ETT-small", "data_path": "ETTh1.csv", "enc_in": 7, "freq": "h", "task_name": "long_term_forecast", "seq_len": 320, "label_len": 48, "pred_len": 96, "patch_len": 20, "stride": 20, "hidden_dim": 16, "d_model": 512, "d_ff": 2048, "e_layers": 2, "n_heads": 4, "factor": 3, "dropout": 0.1, "activation": "gelu", "augmentation_ratio": 0, "learning_rate": 5e-05, "patience": 5, "train_epochs": 70, "batch_size": 32, "input_sha256": "f18de3ad269cef59bb07b5438d79bb3042d3be49bdeecf01c1cd6d29695ee066", "windows": {"train": 8225, "val": 2785, "test": 2785}, "parameters": 7472224, "tokens": 20, "head_in_features": 10240, "encoder_initial_sha256": "2395423151f3cc82e8cce3912df89699c4d2bc86981c735b3a47e668380f680c", "python": "3.12.3", "torch": "2.8.0+cu128", "cuda": "12.8", "gpu": "NVIDIA GeForce RTX 3090", "matmul_precision": "high"}
+head check {'gradient_l2': 2.738361358642578, 'first_update_l2': 0.04957197979092598}
+{"epoch": 1, "train_mse": 0.43798208236694336, "val_batch_mean_mse": 0.7464274948632176, "train_seconds": 5.839018799364567, "val_seconds": 0.5321726277470589, "lr": 5e-05, "steps": 258}
+Validation loss decreased (inf --> 0.746427).  Saving model ...
+Updating learning rate to 4.997482666353287e-05
+{"epoch": 2, "train_mse": 0.3988257348537445, "val_batch_mean_mse": 0.7331574437293139, "train_seconds": 4.891545608639717, "val_seconds": 0.5339347720146179, "lr": 4.997482666353287e-05, "steps": 258}
+Validation loss decreased (0.746427 --> 0.733157).  Saving model ...
+Updating learning rate to 4.989935734988098e-05
+{"epoch": 3, "train_mse": 0.3916471600532532, "val_batch_mean_mse": 0.7385870087891817, "train_seconds": 5.375391036272049, "val_seconds": 0.5408043339848518, "lr": 4.989935734988098e-05, "steps": 258}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.977374404419837e-05
+{"epoch": 4, "train_mse": 0.38538822531700134, "val_batch_mean_mse": 0.6872839350253344, "train_seconds": 5.82693774998188, "val_seconds": 0.5424459725618362, "lr": 4.977374404419837e-05, "steps": 258}
+Validation loss decreased (0.733157 --> 0.687284).  Saving model ...
+Updating learning rate to 4.959823971496574e-05
+{"epoch": 5, "train_mse": 0.3831731975078583, "val_batch_mean_mse": 0.7261991907249797, "train_seconds": 6.0125312358140945, "val_seconds": 0.5424526929855347, "lr": 4.959823971496574e-05, "steps": 258}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.937319780454559e-05
+{"epoch": 6, "train_mse": 0.3810875713825226, "val_batch_mean_mse": 0.7243344494226304, "train_seconds": 5.673748634755611, "val_seconds": 0.5363494381308556, "lr": 4.937319780454559e-05, "steps": 258}
+EarlyStopping counter: 2 out of 5
+Updating learning rate to 4.909907151739633e-05
+{"epoch": 7, "train_mse": 0.3844231367111206, "val_batch_mean_mse": 0.7116306198930199, "train_seconds": 5.627612829208374, "val_seconds": 0.5446092933416367, "lr": 4.909907151739633e-05, "steps": 258}
+EarlyStopping counter: 3 out of 5
+Updating learning rate to 4.877641290737884e-05
+{"epoch": 8, "train_mse": 0.37831735610961914, "val_batch_mean_mse": 0.6848180007866838, "train_seconds": 5.824349708855152, "val_seconds": 0.5349103659391403, "lr": 4.877641290737884e-05, "steps": 258}
+Validation loss decreased (0.687284 --> 0.684818).  Saving model ...
+Updating learning rate to 4.8405871765993433e-05
+{"epoch": 9, "train_mse": 0.3768628239631653, "val_batch_mean_mse": 0.7100000792944973, "train_seconds": 5.323695100843906, "val_seconds": 0.5428659170866013, "lr": 4.8405871765993433e-05, "steps": 258}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.7988194313786275e-05
+{"epoch": 10, "train_mse": 0.37408560514450073, "val_batch_mean_mse": 0.71332615444606, "train_seconds": 5.432771794497967, "val_seconds": 0.5465397909283638, "lr": 4.7988194313786275e-05, "steps": 258}
+EarlyStopping counter: 2 out of 5
+Updating learning rate to 4.752422169756048e-05
+{"epoch": 11, "train_mse": 0.370974600315094, "val_batch_mean_mse": 0.6967261514880441, "train_seconds": 5.964877866208553, "val_seconds": 0.5428561568260193, "lr": 4.752422169756048e-05, "steps": 258}
+EarlyStopping counter: 3 out of 5
+Updating learning rate to 4.701488829641845e-05
+{"epoch": 12, "train_mse": 0.36843714118003845, "val_batch_mean_mse": 0.7063627437773076, "train_seconds": 5.914245277643204, "val_seconds": 0.546262301504612, "lr": 4.701488829641845e-05, "steps": 258}
+EarlyStopping counter: 4 out of 5
+Updating learning rate to 4.6461219840046654e-05
+{"epoch": 13, "train_mse": 0.36883243918418884, "val_batch_mean_mse": 0.6831342964009806, "train_seconds": 5.907871648669243, "val_seconds": 0.5467292070388794, "lr": 4.6461219840046654e-05, "steps": 258}
+Validation loss decreased (0.684818 --> 0.683134).  Saving model ...
+Updating learning rate to 4.586433134303257e-05
+{"epoch": 14, "train_mse": 0.36677297949790955, "val_batch_mean_mse": 0.701222191480073, "train_seconds": 5.810293830931187, "val_seconds": 0.54498141258955, "lr": 4.586433134303257e-05, "steps": 258}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.522542485937369e-05
+{"epoch": 15, "train_mse": 0.36421358585357666, "val_batch_mean_mse": 0.7079564712264321, "train_seconds": 5.842120975255966, "val_seconds": 0.5085710287094116, "lr": 4.522542485937369e-05, "steps": 258}
+EarlyStopping counter: 2 out of 5
+Updating learning rate to 4.454578706170075e-05
+{"epoch": 16, "train_mse": 0.3622809052467346, "val_batch_mean_mse": 0.7462628930807114, "train_seconds": 5.616013318300247, "val_seconds": 0.5411515533924103, "lr": 4.454578706170075e-05, "steps": 258}
+EarlyStopping counter: 3 out of 5
+Updating learning rate to 4.382678665009028e-05
+{"epoch": 17, "train_mse": 0.36051440238952637, "val_batch_mean_mse": 0.7284881012006239, "train_seconds": 5.940240062773228, "val_seconds": 0.5426234602928162, "lr": 4.382678665009028e-05, "steps": 258}
+EarlyStopping counter: 4 out of 5
+Updating learning rate to 4.306987159568479e-05
+{"epoch": 18, "train_mse": 0.35999447107315063, "val_batch_mean_mse": 0.7136548925191164, "train_seconds": 5.660953342914581, "val_seconds": 0.5530077219009399, "lr": 4.306987159568479e-05, "steps": 258}
+EarlyStopping counter: 5 out of 5
+{"mse": 0.3900828390802342, "mae": 0.4114357316302335, "best_epoch": 13, "best_validation_mse": 0.6831342964009806, "epochs": 18, "train_wall_seconds": 112.6092970520258, "test_wall_seconds": 0.5804454237222672, "peak_training_allocated_mib": 570.16748046875, "shape": [2785, 96, 7], "head_check": {"gradient_l2": 2.738361358642578, "first_update_l2": 0.04957197979092598}, "embedding_latency": {"batch_size": 32, "median_ms": 0.34886398911476135, "sample_ms": [0.35440000891685486, 0.3523840010166168, 0.34886398911476135, 0.34163200855255127, 0.3431999981403351]}}

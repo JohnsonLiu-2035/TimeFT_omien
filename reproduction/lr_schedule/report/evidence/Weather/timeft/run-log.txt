@@ -1,0 +1,29 @@
+{"dataset": "Weather", "variant": "timeft", "data_dir": "results/attribution/data", "output": "results/lr_schedule", "seed": 2021, "lradj": "cosine", "smoke": false, "root_path": "results/attribution/data/weather", "data_path": "weather.csv", "enc_in": 21, "freq": "10min", "task_name": "long_term_forecast", "seq_len": 320, "label_len": 48, "pred_len": 96, "patch_len": 20, "stride": 20, "hidden_dim": 16, "d_model": 512, "d_ff": 2048, "e_layers": 2, "n_heads": 4, "factor": 3, "dropout": 0.1, "activation": "gelu", "augmentation_ratio": 0, "learning_rate": 5e-05, "patience": 5, "train_epochs": 70, "batch_size": 32, "input_sha256": "3dcff6f5544877e7bddd0c0d4b12c864f2a4d9ae5999534d141a4e96e00a1a44", "windows": {"train": 36472, "val": 5175, "test": 10444}, "parameters": 7472224, "tokens": 20, "head_in_features": 10240, "encoder_initial_sha256": "2395423151f3cc82e8cce3912df89699c4d2bc86981c735b3a47e668380f680c", "python": "3.12.3", "torch": "2.8.0+cu128", "cuda": "12.8", "gpu": "NVIDIA GeForce RTX 3090", "matmul_precision": "high"}
+head check {'gradient_l2': 3.037262201309204, 'first_update_l2': 0.0495721809566021}
+{"epoch": 1, "train_mse": 0.44577690958976746, "val_batch_mean_mse": 0.495286891857783, "train_seconds": 48.55194105952978, "val_seconds": 2.430714398622513, "lr": 5e-05, "steps": 1140}
+Validation loss decreased (inf --> 0.495287).  Saving model ...
+Updating learning rate to 4.997482666353287e-05
+{"epoch": 2, "train_mse": 0.4213024079799652, "val_batch_mean_mse": 0.4677445595095187, "train_seconds": 48.25938628613949, "val_seconds": 2.428024083375931, "lr": 4.997482666353287e-05, "steps": 1140}
+Validation loss decreased (0.495287 --> 0.467745).  Saving model ...
+Updating learning rate to 4.989935734988098e-05
+{"epoch": 3, "train_mse": 0.41402679681777954, "val_batch_mean_mse": 0.45368569569639217, "train_seconds": 48.29618535190821, "val_seconds": 2.449113629758358, "lr": 4.989935734988098e-05, "steps": 1140}
+Validation loss decreased (0.467745 --> 0.453686).  Saving model ...
+Updating learning rate to 4.977374404419837e-05
+{"epoch": 4, "train_mse": 0.40886634588241577, "val_batch_mean_mse": 0.45171796029180655, "train_seconds": 48.309956669807434, "val_seconds": 2.4388661459088326, "lr": 4.977374404419837e-05, "steps": 1140}
+Validation loss decreased (0.453686 --> 0.451718).  Saving model ...
+Updating learning rate to 4.959823971496574e-05
+{"epoch": 5, "train_mse": 0.40230804681777954, "val_batch_mean_mse": 0.4553044479754236, "train_seconds": 48.30936300754547, "val_seconds": 2.4558976888656616, "lr": 4.959823971496574e-05, "steps": 1140}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.937319780454559e-05
+{"epoch": 6, "train_mse": 0.3970537483692169, "val_batch_mean_mse": 0.4627737492138957, "train_seconds": 48.319163374602795, "val_seconds": 2.443121299147606, "lr": 4.937319780454559e-05, "steps": 1140}
+EarlyStopping counter: 2 out of 5
+Updating learning rate to 4.909907151739633e-05
+{"epoch": 7, "train_mse": 0.39304399490356445, "val_batch_mean_mse": 0.4527941854831613, "train_seconds": 48.31849952787161, "val_seconds": 2.430421471595764, "lr": 4.909907151739633e-05, "steps": 1140}
+EarlyStopping counter: 3 out of 5
+Updating learning rate to 4.877641290737884e-05
+{"epoch": 8, "train_mse": 0.3893691301345825, "val_batch_mean_mse": 0.4537572284447558, "train_seconds": 48.30015306919813, "val_seconds": 2.4366641342639923, "lr": 4.877641290737884e-05, "steps": 1140}
+EarlyStopping counter: 4 out of 5
+Updating learning rate to 4.8405871765993433e-05
+{"epoch": 9, "train_mse": 0.3856542706489563, "val_batch_mean_mse": 0.4552587422047868, "train_seconds": 48.2949652671814, "val_seconds": 2.4570863768458366, "lr": 4.8405871765993433e-05, "steps": 1140}
+EarlyStopping counter: 5 out of 5
+{"mse": 0.2035648198522108, "mae": 0.2524388201535091, "best_epoch": 4, "best_validation_mse": 0.45171796029180655, "epochs": 9, "train_wall_seconds": 457.18065731972456, "test_wall_seconds": 5.347342252731323, "peak_training_allocated_mib": 1658.041015625, "shape": [10444, 96, 21], "head_check": {"gradient_l2": 3.037262201309204, "first_update_l2": 0.0495721809566021}, "embedding_latency": {"batch_size": 32, "median_ms": 0.6693120002746582, "sample_ms": [0.6377599835395813, 0.6703680157661438, 0.6703680157661438, 0.6684479713439941, 0.6693120002746582]}}

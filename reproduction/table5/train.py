@@ -130,7 +130,8 @@ def run(args):
     args.d_model, args.d_ff, args.e_layers, args.n_heads = 512, 2048, 2, 4
     args.factor, args.dropout, args.activation = 3, 0.1, "gelu"
     args.augmentation_ratio = 0
-    args.learning_rate, args.lradj, args.patience = 5e-5, "type1", 5
+    args.learning_rate, args.patience = 5e-5, 5
+    args.lradj = getattr(args, "lradj", "type1")
     args.train_epochs, args.batch_size = (1, 4) if args.smoke else (70, 32)
 
     source = args.data_dir / relative_path
@@ -265,5 +266,6 @@ if __name__ == "__main__":
     parser.add_argument("--data-dir", type=Path, default=Path("dataset"))
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--seed", type=int, default=2021)
+    parser.add_argument("--lradj", choices=("type1", "cosine"), default="type1")
     parser.add_argument("--smoke", action="store_true")
     run(parser.parse_args())

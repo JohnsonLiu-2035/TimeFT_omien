@@ -1,0 +1,26 @@
+{"dataset": "Weather", "variant": "patch", "data_dir": "results/attribution/data", "output": "results/lr_schedule", "seed": 2021, "lradj": "cosine", "smoke": false, "root_path": "results/attribution/data/weather", "data_path": "weather.csv", "enc_in": 21, "freq": "10min", "task_name": "long_term_forecast", "seq_len": 320, "label_len": 48, "pred_len": 96, "patch_len": 20, "stride": 20, "hidden_dim": 16, "d_model": 512, "d_ff": 2048, "e_layers": 2, "n_heads": 4, "factor": 3, "dropout": 0.1, "activation": "gelu", "augmentation_ratio": 0, "learning_rate": 5e-05, "patience": 5, "train_epochs": 70, "batch_size": 32, "input_sha256": "3dcff6f5544877e7bddd0c0d4b12c864f2a4d9ae5999534d141a4e96e00a1a44", "windows": {"train": 36472, "val": 5175, "test": 10444}, "parameters": 7151712, "tokens": 17, "head_in_features": 8704, "encoder_initial_sha256": "2395423151f3cc82e8cce3912df89699c4d2bc86981c735b3a47e668380f680c", "python": "3.12.3", "torch": "2.8.0+cu128", "cuda": "12.8", "gpu": "NVIDIA GeForce RTX 3090", "matmul_precision": "high"}
+head check {'gradient_l2': 2.582132339477539, 'first_update_l2': 0.04570341110229492}
+{"epoch": 1, "train_mse": 0.42042645812034607, "val_batch_mean_mse": 0.45951699074587704, "train_seconds": 53.83367300033569, "val_seconds": 3.2326287925243378, "lr": 5e-05, "steps": 1140}
+Validation loss decreased (inf --> 0.459517).  Saving model ...
+Updating learning rate to 4.997482666353287e-05
+{"epoch": 2, "train_mse": 0.3990583121776581, "val_batch_mean_mse": 0.46048688709183977, "train_seconds": 53.63780452311039, "val_seconds": 3.2361302748322487, "lr": 4.997482666353287e-05, "steps": 1140}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.989935734988098e-05
+{"epoch": 3, "train_mse": 0.39217889308929443, "val_batch_mean_mse": 0.45113789078630046, "train_seconds": 53.67030847072601, "val_seconds": 3.226487159729004, "lr": 4.989935734988098e-05, "steps": 1140}
+Validation loss decreased (0.459517 --> 0.451138).  Saving model ...
+Updating learning rate to 4.977374404419837e-05
+{"epoch": 4, "train_mse": 0.38659781217575073, "val_batch_mean_mse": 0.4540222111491509, "train_seconds": 53.65316437929869, "val_seconds": 3.236335724592209, "lr": 4.977374404419837e-05, "steps": 1140}
+EarlyStopping counter: 1 out of 5
+Updating learning rate to 4.959823971496574e-05
+{"epoch": 5, "train_mse": 0.38083431124687195, "val_batch_mean_mse": 0.4600568299216253, "train_seconds": 53.65395547449589, "val_seconds": 3.218040056526661, "lr": 4.959823971496574e-05, "steps": 1140}
+EarlyStopping counter: 2 out of 5
+Updating learning rate to 4.937319780454559e-05
+{"epoch": 6, "train_mse": 0.3754473924636841, "val_batch_mean_mse": 0.4647211293103518, "train_seconds": 53.65099774301052, "val_seconds": 3.215364784002304, "lr": 4.937319780454559e-05, "steps": 1140}
+EarlyStopping counter: 3 out of 5
+Updating learning rate to 4.909907151739633e-05
+{"epoch": 7, "train_mse": 0.37058645486831665, "val_batch_mean_mse": 0.45900115766275074, "train_seconds": 53.648555621504784, "val_seconds": 3.2205244675278664, "lr": 4.909907151739633e-05, "steps": 1140}
+EarlyStopping counter: 4 out of 5
+Updating learning rate to 4.877641290737884e-05
+{"epoch": 8, "train_mse": 0.3657289743423462, "val_batch_mean_mse": 0.46359945451955736, "train_seconds": 53.658539578318596, "val_seconds": 3.222560279071331, "lr": 4.877641290737884e-05, "steps": 1140}
+EarlyStopping counter: 5 out of 5
+{"mse": 0.19932774549136617, "mae": 0.24649931314564855, "best_epoch": 3, "best_validation_mse": 0.45113789078630046, "epochs": 8, "train_wall_seconds": 455.3604465201497, "test_wall_seconds": 6.9283434972167015, "peak_training_allocated_mib": 1449.12548828125, "shape": [10444, 96, 21], "head_check": {"gradient_l2": 2.582132339477539, "first_update_l2": 0.04570341110229492}, "embedding_latency": {"batch_size": 32, "median_ms": 0.09929600358009338, "sample_ms": [0.09743999689817429, 0.09932799637317657, 0.09929600358009338, 0.09935999661684036, 0.09888000041246414]}}

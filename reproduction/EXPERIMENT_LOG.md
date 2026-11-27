@@ -31,3 +31,13 @@
 - 复用原测试窗口，按预测频段、步长和通道拆分误差，并用隔离时间段检验固定平滑滤波。ETT 两组在低集中度窗口的收益主要在低频及后 48 步。滤波在 ETTh1 上复现约四分之一的形状收益，在 ETTm1 上未改善。Weather 没有低集中度形状优势。
 - 清洗 Weather 训练集 80 行占位值后从头配对重训，同尺度测试的 TimeFT 均值 MSE 仍比 PatchTST 高 0.00533。按同一通道内的漂移比较，ETTh1 最强漂移组的均值误差反而改善 21.8%。本轮保留原学习率调度。
 - [误差归因报告、复核与命令](attribution/report/REPORT.md) · [清洗重训对照](attribution/report/Weather/control.csv) · [逐步误差图](attribution/report/attribution.png)
+
+## 2026-11-27 · 学习率调度单因素对照 · 已完成
+
+- **目的**　检验清洗后 Weather 的水平误差和预测平滑度，以及 ETTh1 的低集中度窗口收益，是否随学习率调度而改变。
+- **设置**　仅新增四次训练，两组数据各配对训练 PatchTST 和 TimeFT。使用仓库原有 cosine 调度，与已完成的同数据 type1 基线对照。固定种子 2021、起始学习率 5e-5、70 轮上限、验证集早停 patience=5。
+- **判读**　在相同测试起点上计算两种调度的模型差，以及调度切换导致的差值变化。DC 和平滑度若出现不同方向，分别解释。时间块区间沿用 416 个起点。
+- **四次训练**　cosine 的验证最优轮 / 停止轮分别为 Weather PatchTST 3/8、Weather TimeFT 4/9、ETTh1 PatchTST 4/9、ETTh1 TimeFT 13/18。Weather 跨调度均为 RTX 3090；ETTh1 旧权重来自 RTX 4090 D。
+- **结果**　清洗 Weather 的 DC MSE 差从 +0.00533 到 +0.00349，剩余差距的 95% 区间为 [+0.00108, +0.00615]，差距变化的区间为 [−0.00376, +0.00017]。相邻步差分均方从 TimeFT 低 66.3% 到低 0.7%，时间方差反向。ETTh1 的 Q1 总 MSE 差为 −0.02902，但两模型绝对测试误差均上升。
+- **结论**　相对平滑程度对调度高度敏感。Weather 的平均水平劣势在 cosine 下依然存在，单独改变学习率不足以消除它，剩余误差的具体架构来源仍未分离。
+- **证据**　[完整实验报告](lr_schedule/report/REPORT.md) · [对应模型与调度的配对区间](lr_schedule/report/contrasts.csv) · [逐轮日志](lr_schedule/report/epochs.csv) · [四次训练原始输出](lr_schedule/report/evidence/)
